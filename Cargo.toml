@@ -8,7 +8,7 @@ homepage = "https://github.com/NicPWNs/random-unicode-emoji-rs"
 documentation = "https://github.com/NicPWNs/random-unicode-emoji-rs"
 repository = "https://github.com/NicPWNs/random-unicode-emoji-rs"
 readme = "README.md"
-license-file = "LICENSE"
+license = "MIT"
 keywords = ["emoji", "random", "unicode"]
 categories = ["gui", "encoding", "web-programming", "text-processing", "games"]
 
