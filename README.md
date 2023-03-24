@@ -19,12 +19,15 @@ Use the crate:
 ```rust
 // Use the Library
 use random_unicode_emoji::random_emoji;
+
 // Use the Function
 println!("{}", random_emoji(1, "latest")[0]);
 --> 🍭
+
 // Change the Count
 println!("{:?}", random_emoji(3, "latest"));
 --> ["🏠", "🥑", "👠"]
+
 // Change the Version
 println!("{}", random_emoji(1, "15.0")[0]);
 --> 🐒
@@ -32,12 +35,12 @@ println!("{}", random_emoji(1, "15.0")[0]);
 
 ### Parameters
 
-- count: usize (Integer)
-- version: &str (String)
+- `count`: `usize` (Integer)
+- `version`: `&str` (String)
 
 ### Return Type
 
-- Vec<String> (Vector of Strings)
+- `Vec\<String>` (Vector of Strings)
 
 ## Update
 
