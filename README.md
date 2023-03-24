@@ -21,7 +21,7 @@ cargo add random-unicode-emoji
 
 ## Usage
 
-Use the crate:
+Use the crate function:
 
 ```rust
 // Use the Library
@@ -42,8 +42,8 @@ println!("{}", random_emoji(1, "15.0")[0]);
 
 ### Parameters
 
-- `count`: `usize` (Integer)
-- `version`: `&str` (String)
+- `count`: `usize` (Integer) - Count of emojis to return.
+- `version`: `&str` (String) - Version of Unicode to use.
 
 ### Return Type
 
