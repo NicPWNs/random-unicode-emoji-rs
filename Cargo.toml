@@ -9,7 +9,7 @@ documentation = "https://github.com/NicPWNs/random-unicode-emoji-rs"
 repository = "https://github.com/NicPWNs/random-unicode-emoji-rs"
 readme = "README.md"
 license = "MIT"
-keywords = ["emoji", "random", "unicode"]
+keywords = ["unicode", "random", "emoji"]
 categories = ["gui", "encoding", "web-programming", "text-processing", "games"]
 
 [lib]
