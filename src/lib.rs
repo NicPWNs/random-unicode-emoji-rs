@@ -9,8 +9,8 @@ use std::u32;
 
 pub fn random_emoji(count: usize, version: &str) -> Vec<String> {
 
-    static PROJECT_DIR: Dir<'_> = include_dir!("$CARGO_MANIFEST_DIR");
-    let file: &File = PROJECT_DIR.get_file("emoji/".to_owned() + &version + "/emoji-test.txt").expect(&("Unicode version \"".to_owned() + version + "\" not supported."));
+    static PROJECT_DIR: Dir<'_> = include_dir!("emoji");
+    let file: &File = PROJECT_DIR.get_file(version.to_owned() + "/emoji-test.txt").expect(&("Unicode version \"".to_owned() + version + "\" not supported."));
     let lines: &str = file.contents_utf8().unwrap();
 
     let mut lines: Vec<String> = lines.split('\n').map(|line| line.replace("#", "#")).collect();
