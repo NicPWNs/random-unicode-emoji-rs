@@ -6,7 +6,6 @@
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/forks)
 [![repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs)
-[![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/issues)
 
 A simple Rust crate that returns random Unicode emojis. ❤️
 
