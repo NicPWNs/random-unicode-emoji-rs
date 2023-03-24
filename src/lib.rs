@@ -35,4 +35,3 @@ pub fn random_emoji(count: usize, version: &str) -> Vec<String> {
     return sample;
 }
 
-// Add tests
