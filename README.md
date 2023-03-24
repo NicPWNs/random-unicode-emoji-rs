@@ -1,5 +1,13 @@
 # random-unicode-emoji
 
+[![crates](https://img.shields.io/crates/v/random-unicode-emoji)](https://crates.io/crates/random-unicode-emoji)
+[![Unicode](https://img.shields.io/badge/Unicode-15.0-success)](https://www.unicode.org/Public/emoji/15.0/)
+[![downloads](https://img.shields.io/crates/d/random-unicode-emoji)](https://crates.io/crates/random-unicode-emoji)
+[![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/stargazers)
+[![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/forks)
+[![repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs)
+[![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/issues)
+
 A simple Rust crate that returns random Unicode emojis. ❤️
 
 > Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random-unicode-emoji-rs)
