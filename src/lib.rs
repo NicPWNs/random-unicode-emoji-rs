@@ -1,6 +1,6 @@
 //! # random-unicode-emoji
 //!
-//! A simple Rust crate that returns random Unicode emojis. ❤️
+//! A simple Rust crate that returns random Unicode emojis. ⚙️
 
 use include_dir::{include_dir, Dir};
 use rand::seq::SliceRandom;
