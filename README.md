@@ -7,7 +7,7 @@
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/forks)
 [![repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs)
 
-A simple Rust crate that returns random Unicode emojis. ❤️
+A simple Rust crate that returns random Unicode emojis. ⚙️
 
 > Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random-unicode-emoji-rs)
 
