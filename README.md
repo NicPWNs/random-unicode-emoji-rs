@@ -40,7 +40,7 @@ println!("{}", random_emoji(1, "15.0")[0]);
 
 ### Return Type
 
-- `Vec\<String>` (Vector of Strings)
+- `Vec<String>` (Vector of Strings)
 
 ## Update
 
