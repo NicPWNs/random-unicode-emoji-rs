@@ -7,8 +7,8 @@ use rand::seq::SliceRandom;
 use include_dir::File;
 use std::u32;
 
-pub fn random_emoji(count: usize, version: &str) -> Vec<String> {
-
+pub fn random_emoji(count: usize, version: &str) -> Vec<String>
+{
     static PROJECT_DIR: Dir<'_> = include_dir!("emoji");
     let file: &File = PROJECT_DIR.get_file(version.to_owned() + "/emoji-test.txt").expect(&("Unicode version \"".to_owned() + version + "\" not supported."));
     let lines: &str = file.contents_utf8().unwrap();
@@ -18,11 +18,13 @@ pub fn random_emoji(count: usize, version: &str) -> Vec<String> {
 
     let mut unicode: Vec<String> = Vec::new();
 
-    for mut line in lines{
+    for mut line in lines
+    {
         line = (&line[0..line.find(";").unwrap_or(line.len())]).trim().to_string();
         let mut full_emoji: String = "".to_string();
 
-        for word in line.split_whitespace(){
+        for word in line.split_whitespace()
+        {
             let hex: u32 = u32::from_str_radix(&word, 16).unwrap();
             let emoji: char = char::from_u32(hex).unwrap();
             full_emoji.push(emoji);
@@ -30,7 +32,7 @@ pub fn random_emoji(count: usize, version: &str) -> Vec<String> {
         unicode.push(full_emoji);
     }
 
-    let sample = unicode.choose_multiple(&mut rand::thread_rng(), count).cloned().collect();
+    let emojis: Vec<String> = unicode.choose_multiple(&mut rand::thread_rng(), count).cloned().collect();
 
-    return sample;
+    return emojis;
 }
