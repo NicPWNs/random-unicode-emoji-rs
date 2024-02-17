@@ -73,4 +73,4 @@ This is the Rust ⚙️ version. There is also a [JavaScript 📜](https://githu
 
 ## Maintainer
 
-[Nic Jones, (NicPWNs)](https://github.com/NicPWNs)
+[Nic Jones, (@NicPWNs)](https://github.com/NicPWNs)
