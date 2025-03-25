@@ -1,6 +1,6 @@
 [package]
 name = "random-unicode-emoji"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = ["Nic Jones <nic@nicpwns.com>"]
 description = "A simple Rust crate that returns random Unicode emojis. ❤️"

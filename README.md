@@ -1,7 +1,7 @@
 # random-unicode-emoji
 
 [![crates](https://img.shields.io/crates/v/random-unicode-emoji)](https://crates.io/crates/random-unicode-emoji)
-[![Unicode](https://img.shields.io/badge/Unicode-15.0-success)](https://www.unicode.org/Public/emoji/15.0/)
+[![Unicode](https://img.shields.io/badge/Unicode-16.0-success)](https://www.unicode.org/Public/emoji/16.0/)
 [![downloads](https://img.shields.io/crates/d/random-unicode-emoji)](https://crates.io/crates/random-unicode-emoji)
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-rs)](https://github.com/NicPWNs/random-unicode-emoji-rs/forks)
@@ -63,7 +63,7 @@ Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/em
 
 ### Supported Unicode Versions
 
-4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0 (latest)
+4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, 15.1, 16.0 (latest)
 
 > _Uses latest version by default._
 
